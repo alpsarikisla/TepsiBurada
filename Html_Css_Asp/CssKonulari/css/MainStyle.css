@@ -1,0 +1,282 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Calibri;
+}
+
+.gecici {
+    background-color: red;
+    height: 20px;
+}
+
+.tasiyici {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.ustLinkler {
+    list-style-type: none;
+}
+
+    .ustLinkler li {
+        float: right;
+        font-size: 9pt;
+        margin-left: 15px;
+    }
+
+        .ustLinkler li a {
+            color: gray;
+            text-decoration: none;
+            font-weight: 900;
+        }
+
+.logo {
+    width: 162px;
+    color: orangered;
+    text-align: end;
+    float: left;
+    padding-right: 100px;
+}
+
+    .logo h1 {
+        font-size: 28pt;
+    }
+
+    .logo a {
+        color: orangered;
+        font-weight: 900;
+        text-decoration: none;
+    }
+
+    .logo label {
+        color: black;
+        font-weight: 900;
+    }
+
+.arama {
+    width: 440px;
+    float: left;
+    padding-top: 10px;
+}
+
+    .arama input {
+        width: 340px;
+        border: 2px solid #919191;
+        font-size: 15pt;
+        padding: 12px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        float: left;
+        color: silver;
+    }
+
+    .arama a {
+        height: 25px;
+        background-color: #919191;
+        color: white;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        padding: 10pt;
+        float: left;
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 15pt;
+    }
+
+    .arama input:focus {
+        border: 2px solid orangered;
+        outline: none;
+    }
+
+.konumgiris {
+    width: 482px;
+    float: left;
+}
+
+    .konumgiris a {
+        float: left;
+    }
+
+.menubuton {
+    width: 133px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 6px;
+}
+
+.sepet {
+    border: 1px solid gray;
+    color: white;
+    font-size: 14pt;
+    font-weight: 900;
+    background-color: #919191;
+    s
+}
+
+.giris {
+    font-size: 11pt;
+    border: 1px solid gray;
+    color: gray;
+}
+
+.renkcizgi {
+    float: left;
+    width: 16.6%;
+    height: 10px;
+}
+
+.kategori {
+    background-color: #F5F5F5;
+    min-height: 56px;
+}
+
+.anamenu {
+    list-style-type: none;
+}
+
+    .anamenu .menueleman {
+        float: left;
+        color: dimgray;
+        font-weight: 900;
+        padding: 10px 28px;
+        border-right: 2px solid silver;
+        min-height: 36px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+.reklam {
+    background: url("../SiteResimleri/backgroundImage2114_20231110150803.png") no-repeat left center;
+    min-height: 386px;
+}
+.reklammenu
+{
+
+}
+.reklamtasiyici
+{
+    width:1000px;
+    margin:0px auto;
+
+}
+    .reklamtasiyici .yazi {
+        width: 400px;
+        background-color: white;
+        min-height: 300px;
+        float: left;
+    
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .reklamtasiyici .icerik {
+        width: 590px;
+        border: 5px solid white;
+        min-height: 290px;
+        float: left;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color:white;
+    }
+.uruntasiyici {
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+    .uruntasiyici .resim {
+        float: left;
+        width: 569px;
+        min-height: 400px;
+        padding: 15px;
+    }
+    .uruntasiyici .icerik {
+        float: left;
+        width: 559px;
+        min-height: 400px;
+        background-color: #F5F5F5;
+        padding: 20px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+.baslik {
+    font-weight: 900;
+    color: #484848;
+    font-size: 9pt;
+}
+.marka {
+    font-weight: 900;
+    color: #537ECF;
+    font-size: 12pt;
+}
+.fiyat {
+    font-weight: 900;
+    color: #484848;
+    font-size: 30pt;
+    float:left;
+}
+.puan {
+    color: #484848;
+    font-size: 18pt;
+    float: right;
+    margin-top: 15px;
+}
+.puan img
+{
+   
+    height:16px;
+}
+.taksit {
+    color: #484848;
+    float: left;
+    font-size: 11pt;
+}
+.degerlendirme {
+    color: #484848;
+    float: right;
+    font-size:9pt;
+}
+.premium {
+    color: #484848;
+    font-size: 10pt;
+}
+.premium:hover {
+    text-decoration:underline;
+}
+.kutu
+{
+    width:400px;
+    font-size:10pt;
+    border:1px solid silver;
+    background-color:white;
+    padding:7px;
+    font-weight:900;
+    float:left;
+}
+.ayirac {
+    color: #919191;
+    margin:5px;
+}
+.saticipuan {
+    padding: 1px 7px;
+    border-radius: 3px;
+    background-color: #4EA84E;
+    color:white;
+}
+.kampanyasayi
+{
+    background-color:orangered;
+    border-radius:20px;
+    color:white;
+   padding:2px 7px;
+}
+.soru {
+    float: left;
+    padding: 5px;
+    text-decoration: none;
+    color: #484848;
+    border: 2px solid silver;
+    border-radius: 7px;
+    margin-left: 10px;
+    font-weight: 500;
+}
